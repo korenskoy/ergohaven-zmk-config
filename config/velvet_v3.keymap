@@ -31,10 +31,10 @@
 
         Symbols {
             bindings = <
-&trans  &trans  &trans    &trans   &trans  &trans                    &kp C_VOLUME_UP    &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans    &trans   &trans  &trans                    &kp K_MUTE         &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &trans  &studio_unlock
-&trans  &trans  &trans    &trans   &trans  &trans                    &kp C_VOLUME_DOWN  &trans          &kp DOWN_ARROW  &trans           &trans  &trans
-                &kp HOME  &kp END  &trans  &mo 3   &trans    &trans  &trans             &trans          &kp PAGE_UP     &kp PAGE_DOWN
+&trans  &trans  &trans    &trans   &trans  &trans                    &kp C_VOLUME_UP    &trans              &trans          &trans               &trans  &trans
+&trans  &trans  &trans    &trans   &trans  &trans                    &kp K_MUTE         &kp LEFT_ARROW      &kp UP_ARROW    &kp RIGHT_ARROW      &trans  &studio_unlock
+&trans  &trans  &trans    &trans   &trans  &trans                    &kp C_VOLUME_DOWN  &kp LS(LEFT_ARROW)  &kp DOWN_ARROW  &kp LS(RIGHT_ARROW)  &trans  &trans
+                &kp HOME  &kp END  &trans  &mo 3   &trans    &trans  &trans             &trans              &kp PAGE_UP     &kp PAGE_DOWN
             >;
 
             label = "Symbols";
